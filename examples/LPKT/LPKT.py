@@ -125,10 +125,10 @@ if __name__ == "__main__":
     )
 
     # 训练模型
-    train_model(
-        n_at, n_it, n_exercise, n_question, d_a, d_e, d_k, q_matrix, batch_size, dropout,
-        train_data, test_data, epoch=2, lr=0.003
-    )
+    # train_model(
+    #     n_at, n_it, n_exercise, n_question, d_a, d_e, d_k, q_matrix, batch_size, dropout,
+    #     train_data, test_data, epoch=2, lr=0.003
+    # )
 
     # 评估模型
     evaluate_model(
